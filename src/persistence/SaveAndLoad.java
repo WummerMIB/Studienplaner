@@ -7,8 +7,6 @@ public class SaveAndLoad {
 	}
 	
 	
-	
-	
 	public void load() {
 		
 	}
