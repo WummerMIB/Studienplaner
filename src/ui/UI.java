@@ -61,7 +61,7 @@ public class UI {
 		panel.add(notes);
 		
 		
-		JButton lernBe = new JButton("Noten");
+		JButton lernBe = new JButton("Lernbereich");
 		lernBe.setBounds(100,270,300,40);
 		lernBe.addActionListener(e -> {
 			
