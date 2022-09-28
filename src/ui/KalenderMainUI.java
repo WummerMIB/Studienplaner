@@ -40,7 +40,8 @@ public class KalenderMainUI {
 		JButton creTer = new JButton("Termin erstellen");
 		creTer.setBounds(100,120,300,40);
 		creTer.addActionListener(e -> {
-
+			TerminErstellen tE = new TerminErstellen();
+			frame.dispose();
 		});
 		panel.add(creTer);
 		
@@ -50,8 +51,7 @@ public class KalenderMainUI {
 			
 		});
 		panel.add(delTer);
-		
-		
+				
 		JButton backB = new JButton("Zurück");
 		backB.setBounds(100,220,300,40);
 		backB.addActionListener(e -> {
